@@ -104,7 +104,7 @@ This setup will allow you to simulate the behavior of multiple distributed proce
 ![Event Options](https://i.imghippo.com/files/GX3796vyU.png)
 
 ## Contributing
-We welcome contributions! To contribute:
+I welcome contributions! To contribute:
 1. Fork the repository.
 2. Create a new branch.
 3. Make your changes and commit them.
