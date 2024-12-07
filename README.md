@@ -11,7 +11,7 @@ Welcome to the **Lamport Clock Simulator**! This Python project simulates the co
 - **Real-time Communication**: Supports sending and receiving time-stamped messages between real python processes.
 - **Event Handling**: Trigger local events and simulate message exchanges.
 - **Port Validation**: Checks if the port is available, ensuring no conflicts.
-- **Logs**: Maintains a detailed event log for debugging and analysis.
+- **Logs**: Maintains a detailed event comunication log between the processes.
 
 
 ![Python version](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -43,7 +43,7 @@ cd Lamport-Clock-Simulator
 ```
 
 ### Step 2: Install Required Python Packages
-Make sure you have Python 3.7 or higher installed. Then, install the required packages using `pip`:
+Make sure you have Python 3.8 or higher installed. Then, install the required packages using `pip`:
 ```bash
 pip install rich
 ```
