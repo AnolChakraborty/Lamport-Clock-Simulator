@@ -24,7 +24,14 @@ Welcome to the **Lamport Clock Simulator**! This Python project simulates the co
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 
-## Video
+
+
+https://github.com/user-attachments/assets/97e190fc-06e4-4c5f-bd15-6f9e892fc3fa
+
+
+
+
+
 
 ## Installation
 Clone this repository and install the dependencies using the following steps:
