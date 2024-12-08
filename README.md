@@ -72,7 +72,7 @@ The **Lamport Clock Simulator** is a terminal-based user interface (TUI) applica
       ```
       In another terminal, run the simulator on port 5001:
       ```bash
-      python3 lamport_clock_simulator.py
+      python3 main.py
       ```
       Simillarly run as many instance you want of the same program with different port number.
 This setup will allow you to simulate the behavior of multiple distributed processes communicating with each other in your local systen.
