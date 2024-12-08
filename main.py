@@ -175,7 +175,7 @@ def display_message_log(port, check=1):
         console.print(create_custom_prompt_message() + " : ", end="")
 
 def main():
-    os.system("clear")
+    os.system('cls' if os.name == 'nt' else 'clear')
 
     link_text = Text("View at GitHub", style="bold blue")
     link_text.stylize("link https://github.com/AnolChakraborty/Lamport-Clock-Simulator", 0, len(link_text))
@@ -189,7 +189,7 @@ def main():
 
     lc = LamportClock()
 
-    os.system("clear")
+    os.system('cls' if os.name == 'nt' else 'clear')
 
     threading.Thread(target=receive_message, args=(lc, port), daemon=True).start()
     thread_ready_event.wait()
@@ -199,5 +199,5 @@ if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        os.system("clear")
+        os.system('cls' if os.name == 'nt' else 'clear')
         console.print(Panel(Text("Exiting lamport clock simulator, Goodbye !", style="bold cyan", justify="center"), subtitle="💮 💮 Adios 💮 💮", border_style="cyan"))
